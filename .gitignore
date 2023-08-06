@@ -1,0 +1,28 @@
+# Arquivos gerados automaticamente pelo Python
+*.pyc
+
+# Diretório virtualenv
+venv/
+
+# Arquivo do banco de dados SQLite (se não for necessário compartilhá-lo)
+db.sqlite3
+
+# Arquivo de configuração do ambiente (.env)
+.env
+
+# Arquivos de configuração de IDEs (por exemplo, arquivos de projeto do VSCode)
+.vscode/
+*.code-workspace
+*.sublime-project
+*.sublime-workspace
+*.idea/
+*.pycharm/
+
+# Arquivos de log
+*.log
+
+# Arquivos temporários
+*.tmp
+*.temp
+*.bak
+*.swp

@@ -1,28 +1,30 @@
-# Arquivos gerados automaticamente pelo Python
+# Arquivos gerados automaticamente
+__pycache__/
 *.pyc
+*.pyo
+*.pyd
 
-# Diretório virtualenv
+# Diretórios e arquivos relacionados a cache e dados temporários
+.mypy_cache/
+.pytest_cache/
+*.sqlite3
+
+# Diretório do ambiente virtual Python (se você usar virtualenv ou venv)
 venv/
 
-# Arquivo do banco de dados SQLite (se não for necessário compartilhá-lo)
+# Arquivos de configuração do Visual Studio Code
+.vscode/
+
+# Arquivos de índice de sistema Windows
+desktop.ini
+
+# Outros arquivos gerados ou específicos para o projeto
+index/
+Site/
+
+# Outros arquivos sensíveis ou específicos para o projeto
 db.sqlite3
 
-# Arquivo de configuração do ambiente (.env)
-.env
-
-# Arquivos de configuração de IDEs (por exemplo, arquivos de projeto do VSCode)
-.vscode/
-*.code-workspace
-*.sublime-project
-*.sublime-workspace
-*.idea/
-*.pycharm/
-
-# Arquivos de log
-*.log
-
-# Arquivos temporários
-*.tmp
-*.temp
-*.bak
-*.swp
+# Arquivos que são específicos do seu sistema ou usuário
+.DS_Store
+Thumbs.db
